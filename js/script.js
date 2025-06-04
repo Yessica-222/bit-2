@@ -4,7 +4,7 @@ const $root = d.getElementById('root');
 
 let cards = `<div class="d-flex flex-wrap gap-4">`;
 
-fetch('../json/data.json')
+fetch('https://Yessica-222.github.io/bit-2/json/data.json')
   .then((res) => {
     if (!res.ok) throw new Error('No se pudo cargar el archivo JSON');
     return res.json();
