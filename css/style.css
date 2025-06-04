@@ -216,3 +216,58 @@ main {
     width: 20rem;
   }
 }
+
+/* Boton */
+#ordenar-intensidad {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+#ordenar-intensidad:hover {
+  background: linear-gradient(135deg, #0056b3, #009ec3);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.6);
+}
+
+#ordenar-apellido {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(255, 126, 95, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+#ordenar-apellido:hover {
+  background: linear-gradient(135deg, #d65b42, #fca662);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(255, 126, 95, 0.6);
+}
+
+#ordenar-codigo {
+  background: linear-gradient(135deg, #db4fa7, #c084b7);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(85, 161, 205, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+#ordenar-codigo:hover {
+  background: linear-gradient(135deg, #db4fa7, #c084b7);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(85, 161, 205, 0.4);
+}
